@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberGuesserGenerator", "NumberGuesserGenerator\NumberGuesserGenerator.csproj", "{15C2A28F-5E93-4A0D-863F-5C8361FE9F83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ignore Files", "Ignore Files", "{1C91E2DE-C8B2-491A-8043-5861399F8E91}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI", "CI", "{A21D4C68-76DD-4D01-B024-DB2DD7D0BF5A}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{64AFA72B-A654-41E6-AC58-AC9E61CAA4E0}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15C2A28F-5E93-4A0D-863F-5C8361FE9F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C2A28F-5E93-4A0D-863F-5C8361FE9F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C2A28F-5E93-4A0D-863F-5C8361FE9F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C2A28F-5E93-4A0D-863F-5C8361FE9F83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
